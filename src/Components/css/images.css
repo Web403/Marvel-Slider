@@ -1,0 +1,17 @@
+.slider{
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    height: 80vh;
+}
+.images{
+    max-width: 450px;
+    margin: auto 100px;
+    width: 380px;
+    height: fit-content;
+}
+.images:hover{
+    box-shadow: 2px 25px 80px black;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
