@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Avengeance-YolO;
+    src: url(../../../public/assets/Avengeance-YolO.ttf);
+}
 .main{
     margin: 0px;
     display: flex;
@@ -25,8 +29,9 @@
 .main p{
     color: white;
     margin: auto;
-    font-size: 25px;
+    font-size: 30px;
     box-shadow: 0px 2px 0px red;
+    font-family: Avengeance-YolO;
 }
 @media only screen and(max-width: 500px){
     .main p{
